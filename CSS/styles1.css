@@ -107,11 +107,7 @@ display: flex;
 justify-content: center;
 gap: 30px;
 }
-.options__wraper__offer{
 
-
-
-}
 .options__wraper__name{
     align-items: center;
         width: 370px;
@@ -168,4 +164,21 @@ background: #333333;
 .options__wraper__offer__medium{
     margin-top: -20px;
 
+}
+
+/*раздел comments*/
+.conteiner {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+.comments__title{
+    font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        text-align: center;
+        padding: 30px;
 }
