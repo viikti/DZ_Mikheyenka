@@ -1,10 +1,12 @@
 
 /*раздел awesome*/
 .conteiner {
-    width: 1170px;
-    margin: 0 auto;
+    max-width: 1170px;
+        padding: 0 15px;
+        margin: auto;
 }
 .awesome__title{
+    padding-top: 50px;
         font-family: Raleway;
         font-weight: 400;
         font-size: 36px;
@@ -44,18 +46,19 @@ font-family: 'Raleway';
 }
 .awesome__item__name{
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
+    padding: 40px 0px;
+    text-align: center;
 }
 .awesome__item__info{
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 21px;
         margin-top: 8px;
+        
 }
 
 /*раздел options*/
@@ -79,9 +82,6 @@ font-family: 'Raleway';
         font-size: 36px;
         line-height: 42px;
         text-align: center;
-   
-
-
 
 }
 .options__line {
