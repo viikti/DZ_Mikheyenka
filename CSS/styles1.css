@@ -182,3 +182,72 @@ background: #333333;
         text-align: center;
         padding: 30px;
 }
+.comments__line {
+    margin: 0 auto;
+    width: 170px;
+    border-bottom: 1px solid #ea9393
+}
+.comments__text{
+    font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+color: #86878B;     
+        padding: 38px 0px;
+}
+
+.comments__wraper{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 70px;
+    
+}
+.comments__review{
+    width: 370px;
+    padding: 38px 0px 37px 0px;
+    font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #86878B;
+        background: #E2E2E2;
+            border-radius: 10px;
+            text-align: center;
+}
+
+.wraper__block{
+    flex-direction: column;
+}
+.comment__item{
+    display: flex;
+    margin-top: 46px;
+}
+.comment__avatar{
+margin-right: 30px;
+border-radius: 50%;
+}
+.comments__username{
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+}
+
+.comments__arrow{
+margin-left: 70px;
+}
+.commets__profession{
+    font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        padding-right: 10px ;
+        margin-top: 15px;
+        
+}
