@@ -215,7 +215,20 @@ color: #86878B;
         background: #E2E2E2;
             border-radius: 10px;
             text-align: center;
+            position: relative;
 }
+
+
+
+.comments__review::after{
+content: url(../img/Polygon.png);
+position: absolute;
+left: 70px;
+bottom: -23px;
+
+    }
+
+
 
 .wraper__block{
     flex-direction: column;
@@ -238,9 +251,7 @@ border-radius: 50%;
         line-height: 33px;
 }
 
-.comments__arrow{
-margin-left: 70px;
-}
+
 .commets__profession{
     font-family: 'Raleway';
         font-weight: 400;
