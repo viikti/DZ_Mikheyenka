@@ -431,3 +431,22 @@ border-radius: 50%;
     text-align: center;
 
 }
+
+
+/*раздел footer*/
+.conteiner {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+.footer{
+background: #000000;
+
+}
+.footer__icons{
+    display: flex;
+
+}
+.footer__icons a{
+        margin: 40px 0px 80px 0px;
+}
