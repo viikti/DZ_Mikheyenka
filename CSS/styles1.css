@@ -1,10 +1,33 @@
-
-/*раздел awesome*/
 .conteiner {
     max-width: 1170px;
-        padding: 0 15px;
-        margin: auto;
+    padding: 0 15px;
+    margin: auto;
 }
+
+.header__nav{
+    display: flex;
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+}
+
+/*header*/
+.header{
+    width: 1510px;
+    background: #000000;
+}
+
+
+
+/*раздел awesome*/
+
 .awesome__title{
     padding-top: 50px;
         font-family: Raleway;
@@ -225,8 +248,7 @@ content: url(../img/Polygon.png);
 position: absolute;
 left: 70px;
 bottom: -23px;
-
-    }
+}
 
 
 
