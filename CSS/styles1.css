@@ -40,8 +40,74 @@ margin: 0px 170px 0px 471px;
 padding: 23px 96px 21px 0px;
 }
 
+/*main*/
+.conteiner {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+
+}
+.main .conteiner{
+display: flex;
+}
+.main{
+    background-image:url(../IMG/image.png);
+}
+.main__wraper{
+    margin-left: 170px;
+}
+
+.main__logo img{
+width: 270px;
+padding: 23px 100px 22px 0px;
+margin-top: 207px;
+
+}
 
 
+.main__title{
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 48px;
+        display: flex;
+        margin-top: 51px;
+        color: #FFFFFF;
+        margin-bottom: 55px;
+}
+.main__line {
+    width: 170px;
+    border: 1px solid #FFFFFF;
+}
+.main__text{
+    font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 18px;
+        align-items: center;
+        color: #FFFFFF;
+        margin: 42px 0px ;
+}
+
+.main__btn{
+    width: 270px;
+    font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        background: local;
+        border: 2px solid #FFFFFF;
+        margin-bottom: 185px;
+}
+
+.main__form{
+
+    background-color: #7c7979;
+    width: 470px;
+    height: 450px;
+    margin: 207px 170px 293px 30px;
+}
 
 
 
