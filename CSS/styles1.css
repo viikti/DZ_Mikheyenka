@@ -79,7 +79,7 @@ margin-top: 207px;
     border: 1px solid #FFFFFF;
 }
 .main__text{
-    font-family: 'Raleway';
+        font-family: 'Raleway';
         font-weight: 400;
         font-size: 18px;
         align-items: center;
@@ -92,9 +92,6 @@ margin-top: 207px;
     font-family: 'Open Sans';
         font-weight: 600;
         font-size: 18px;
-        line-height: 25px;
-        align-items: center;
-        text-align: center;
         color: #FFFFFF;
         background: local;
         border: 2px solid #FFFFFF;
@@ -108,7 +105,6 @@ margin-top: 207px;
     height: 450px;
     margin: 207px 170px 293px 30px;
 }
-
 
 
 
@@ -336,9 +332,9 @@ color: #86878B;
         line-height: 21px;
         color: #86878B;
         background: #E2E2E2;
-            border-radius: 10px;
-            text-align: center;
-            position: relative;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
 }
 
 
@@ -383,4 +379,55 @@ border-radius: 50%;
         padding-right: 10px ;
         margin-top: 15px;
         margin-bottom: 70px;
+}
+
+/*раздел baner*/
+
+.conteiner {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+.baner{
+    color: #FFFFFF;
+    background: url(../IMG/image1.png);
+}
+.baner__title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.baner__line {
+    margin: 0 auto;
+    width: 170px;
+    border: 1px solid #FFFFFF;
+}
+
+.baner__text {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 38px 0px;
+}
+
+.baner__btn {
+    width: 370px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: local;
+    border: 2px solid #FFFFFF;
+    align-items: center;
+    text-align: center;
+
 }
