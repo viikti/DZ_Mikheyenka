@@ -4,30 +4,64 @@
     margin: auto;
 }
 
-.header__nav{
-    display: flex;
-    font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 19px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        text-transform: capitalize;
-        color: #FFFFFF;
-}
 
 /*header*/
 .header{
-    width: 1510px;
     background: #000000;
 }
+.header .conteiner{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+width: 570px;
+display: flex;
+justify-content: space-between;
+margin: 0px 170px 0px 471px;
+
+
+}
+.header__nav a{
+
+    width: 113px;
+    font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 14px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+}
+
+.header__logo{
+    width: 183px;
+    margin-left: 115px;
+padding: 23px 96px 21px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*раздел awesome*/
-
+.conteiner {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
 .awesome__title{
     padding-top: 50px;
         font-family: Raleway;
