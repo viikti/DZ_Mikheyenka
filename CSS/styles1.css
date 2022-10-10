@@ -108,16 +108,6 @@ margin-top: 207px;
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*раздел awesome*/
 .conteiner {
     max-width: 1170px;
@@ -391,6 +381,7 @@ border-radius: 50%;
 .baner{
     color: #FFFFFF;
     background: url(../IMG/image1.png);
+    padding-bottom: 50px;
 }
 .baner__title {
     font-family: 'Raleway';
@@ -426,8 +417,6 @@ border-radius: 50%;
     color: #FFFFFF;
     background: local;
     border: 2px solid #FFFFFF;
-    align-items: center;
-    text-align: center;
     padding: 22px 130px;
     display:block;
     margin:auto;
@@ -463,5 +452,5 @@ background: #000000;
         font-size: 18px;
         text-align: center;
         color: rgba(255, 255, 255, 0.5);
-
+        padding-bottom: 27px;
 }
