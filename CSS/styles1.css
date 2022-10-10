@@ -431,8 +431,8 @@ border-radius: 50%;
     padding: 22px 130px;
     display:block;
     margin:auto;
-
 }
+
 
 
 /*раздел footer*/
@@ -446,11 +446,13 @@ background: #000000;
 
 }
 .footer__icons{
-    display: block;
+    display: flex;
     margin: auto;
     text-align: center;
     align-items: center;
     margin-bottom: 35px;
+    gap: 43px;
+    justify-content: center;
 
 }
 .footer__icons img{
