@@ -466,6 +466,62 @@ border-radius: 50%;
 }
 
 
+/*раздел contact*/
+.textarea {
+    resize: none;
+}
+.contact__title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact__line {
+    margin: 0 auto;
+    width: 170px;
+    border-bottom: 1px solid #ea9393
+}
+
+.contact__text {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    padding: 38px 0px;
+}
+
+
+
+
+.contact__form input {
+    width: 570px;
+    margin: 0px 50px;
+    border-width: 0 0 0px;
+    border-color: #BDBDBD;
+}
+
+
+.contact__form{
+    display: flex;  
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        color: #BDBDBD;
+}
+.contact__form__line {
+    width: 370px;
+    border: 1px solid #BDBDBD;
+    margin: 16px 50px 30px 50px;
+}
+
+
 
 /*раздел footer*/
 .conteiner {
@@ -473,6 +529,7 @@ border-radius: 50%;
     padding: 0 15px;
     margin: auto;
 }
+
 .footer{
 background: #000000;
 
