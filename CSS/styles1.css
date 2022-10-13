@@ -12,19 +12,21 @@
 }
 .header .conteiner{
     display: flex;
-    align-items: center;
+
 
 }
 
 .header__nav {
+    width: 113px;
+    display: flex;
 width: 570px;
-display: flex;
-margin-right: 170px;
+padding: 34px 28px;
 
 }
-.header__nav a{
 
-    width: 113px;
+
+.header__nav a{
+    padding: 34px 28px;
     font-family: 'Open Sans';
         font-weight: 600;
         font-size: 14px;
@@ -38,6 +40,7 @@ margin-right: 170px;
     width: 183px;
     margin-left: 115px;
 padding: 23px 96px 21px 0px;
+
 }
 
 /*main*/
@@ -467,9 +470,7 @@ border-radius: 50%;
 
 
 /*раздел contact*/
-.textarea {
-    resize: none;
-}
+
 .contact__title {
     font-family: 'Raleway';
     font-weight: 400;
@@ -495,6 +496,7 @@ border-radius: 50%;
     text-align: center;
     color: #86878B;
     padding: 38px 0px;
+    margin-bottom: 89px ;
 }
 
 
@@ -510,18 +512,33 @@ border-radius: 50%;
 
 .contact__form{
     display: flex;  
-        font-size: 14px;
-        display: flex;
-        align-items: center;
-        color: #BDBDBD;
+    font-size: 14px;
+    align-items: center;
+    color: #BDBDBD;
 }
+
+.contact__form__right textarea {
+    resize: none;
+
+}
+
 .contact__form__line {
     width: 370px;
     border: 1px solid #BDBDBD;
     margin: 16px 50px 30px 50px;
 }
 
-
+.contact__btn{
+    display: block;
+    margin: 50px auto;
+    width: 370px;
+    padding: 20px 120px;
+    background: #EC7979;
+    font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 18px;   
+        color: #FFFFFF;
+}
 
 /*раздел footer*/
 .conteiner {
